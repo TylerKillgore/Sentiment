@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A42F14523ADA13600D3E386 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5A42F14423ADA13600D3E386 /* ToolbarItemIcon.pdf */; };
+		5ACB73D723ABD6F900F54F90 /* Sentiment.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB73D623ABD6F900F54F90 /* Sentiment.entitlements */; };
+		5ACB73D923ABD6F900F54F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB73D823ABD6F900F54F90 /* AppDelegate.swift */; };
+		5ACB73DC23ABD6F900F54F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB73DA23ABD6F900F54F90 /* Main.storyboard */; };
+		5ACB73DE23ABD6F900F54F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB73DD23ABD6F900F54F90 /* ViewController.swift */; };
+		5ACB73E023ABD6FC00F54F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB73DF23ABD6FC00F54F90 /* Assets.xcassets */; };
+		5ACB73EB23ABD6FC00F54F90 /* SentimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB73EA23ABD6FC00F54F90 /* SentimentTests.swift */; };
+		5ACB73F623ABD6FC00F54F90 /* SentimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB73F523ABD6FC00F54F90 /* SentimentUITests.swift */; };
+		5ACB73FD23ABD6FC00F54F90 /* Sentiment Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5ACB73FC23ABD6FC00F54F90 /* Sentiment Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5ACB740223ABD6FC00F54F90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ACB740123ABD6FC00F54F90 /* Cocoa.framework */; };
+		5ACB740523ABD6FC00F54F90 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB740423ABD6FC00F54F90 /* SafariExtensionHandler.swift */; };
+		5ACB740723ABD6FC00F54F90 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB740623ABD6FC00F54F90 /* SafariExtensionViewController.swift */; };
+		5ACB740A23ABD6FC00F54F90 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB740823ABD6FC00F54F90 /* SafariExtensionViewController.xib */; };
+		5ACB740D23ABD6FC00F54F90 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 5ACB740C23ABD6FC00F54F90 /* script.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ACB73E723ABD6FC00F54F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACB73CB23ABD6F900F54F90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACB73D223ABD6F900F54F90;
+			remoteInfo = Sentiment;
+		};
+		5ACB73F223ABD6FC00F54F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACB73CB23ABD6F900F54F90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACB73D223ABD6F900F54F90;
+			remoteInfo = Sentiment;
+		};
+		5ACB73FE23ABD6FC00F54F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ACB73CB23ABD6F900F54F90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ACB73FB23ABD6FC00F54F90;
+			remoteInfo = "Sentiment Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5ACB741623ABD6FC00F54F90 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5ACB73FD23ABD6FC00F54F90 /* Sentiment Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A42F14423ADA13600D3E386 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		5ACB73D323ABD6F900F54F90 /* Sentiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB73D623ABD6F900F54F90 /* Sentiment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sentiment.entitlements; sourceTree = "<group>"; };
+		5ACB73D823ABD6F900F54F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ACB73DB23ABD6F900F54F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ACB73DD23ABD6F900F54F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ACB73DF23ABD6FC00F54F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ACB73E123ABD6FC00F54F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACB73E623ABD6FC00F54F90 /* SentimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB73EA23ABD6FC00F54F90 /* SentimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentTests.swift; sourceTree = "<group>"; };
+		5ACB73EC23ABD6FC00F54F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACB73F123ABD6FC00F54F90 /* SentimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB73F523ABD6FC00F54F90 /* SentimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentUITests.swift; sourceTree = "<group>"; };
+		5ACB73F723ABD6FC00F54F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACB73FC23ABD6FC00F54F90 /* Sentiment Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sentiment Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACB740123ABD6FC00F54F90 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5ACB740423ABD6FC00F54F90 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		5ACB740623ABD6FC00F54F90 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		5ACB740923ABD6FC00F54F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		5ACB740B23ABD6FC00F54F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ACB740C23ABD6FC00F54F90 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		5ACB741023ABD6FC00F54F90 /* Sentiment_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sentiment_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ACB73D023ABD6F900F54F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73E323ABD6FC00F54F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73EE23ABD6FC00F54F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73F923ABD6FC00F54F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB740223ABD6FC00F54F90 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ACB73CA23ABD6F900F54F90 = {
+			isa = PBXGroup;
+			children = (
+				5ACB73D523ABD6F900F54F90 /* Sentiment */,
+				5ACB73E923ABD6FC00F54F90 /* SentimentTests */,
+				5ACB73F423ABD6FC00F54F90 /* SentimentUITests */,
+				5ACB740323ABD6FC00F54F90 /* Sentiment Extension */,
+				5ACB740023ABD6FC00F54F90 /* Frameworks */,
+				5ACB73D423ABD6F900F54F90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ACB73D423ABD6F900F54F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB73D323ABD6F900F54F90 /* Sentiment.app */,
+				5ACB73E623ABD6FC00F54F90 /* SentimentTests.xctest */,
+				5ACB73F123ABD6FC00F54F90 /* SentimentUITests.xctest */,
+				5ACB73FC23ABD6FC00F54F90 /* Sentiment Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ACB73D523ABD6F900F54F90 /* Sentiment */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB73D623ABD6F900F54F90 /* Sentiment.entitlements */,
+				5ACB73D823ABD6F900F54F90 /* AppDelegate.swift */,
+				5ACB73DA23ABD6F900F54F90 /* Main.storyboard */,
+				5ACB73DD23ABD6F900F54F90 /* ViewController.swift */,
+				5ACB73DF23ABD6FC00F54F90 /* Assets.xcassets */,
+				5ACB73E123ABD6FC00F54F90 /* Info.plist */,
+			);
+			path = Sentiment;
+			sourceTree = "<group>";
+		};
+		5ACB73E923ABD6FC00F54F90 /* SentimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB73EA23ABD6FC00F54F90 /* SentimentTests.swift */,
+				5ACB73EC23ABD6FC00F54F90 /* Info.plist */,
+			);
+			path = SentimentTests;
+			sourceTree = "<group>";
+		};
+		5ACB73F423ABD6FC00F54F90 /* SentimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB73F523ABD6FC00F54F90 /* SentimentUITests.swift */,
+				5ACB73F723ABD6FC00F54F90 /* Info.plist */,
+			);
+			path = SentimentUITests;
+			sourceTree = "<group>";
+		};
+		5ACB740023ABD6FC00F54F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB740123ABD6FC00F54F90 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5ACB740323ABD6FC00F54F90 /* Sentiment Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB740423ABD6FC00F54F90 /* SafariExtensionHandler.swift */,
+				5ACB740623ABD6FC00F54F90 /* SafariExtensionViewController.swift */,
+				5ACB740823ABD6FC00F54F90 /* SafariExtensionViewController.xib */,
+				5ACB740B23ABD6FC00F54F90 /* Info.plist */,
+				5ACB740C23ABD6FC00F54F90 /* script.js */,
+				5A42F14423ADA13600D3E386 /* ToolbarItemIcon.pdf */,
+				5ACB741023ABD6FC00F54F90 /* Sentiment_Extension.entitlements */,
+			);
+			path = "Sentiment Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ACB73D223ABD6F900F54F90 /* Sentiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB741723ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "Sentiment" */;
+			buildPhases = (
+				5ACB73CF23ABD6F900F54F90 /* Sources */,
+				5ACB73D023ABD6F900F54F90 /* Frameworks */,
+				5ACB73D123ABD6F900F54F90 /* Resources */,
+				5ACB741623ABD6FC00F54F90 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACB73FF23ABD6FC00F54F90 /* PBXTargetDependency */,
+			);
+			name = Sentiment;
+			productName = Sentiment;
+			productReference = 5ACB73D323ABD6F900F54F90 /* Sentiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ACB73E523ABD6FC00F54F90 /* SentimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB741A23ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "SentimentTests" */;
+			buildPhases = (
+				5ACB73E223ABD6FC00F54F90 /* Sources */,
+				5ACB73E323ABD6FC00F54F90 /* Frameworks */,
+				5ACB73E423ABD6FC00F54F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACB73E823ABD6FC00F54F90 /* PBXTargetDependency */,
+			);
+			name = SentimentTests;
+			productName = SentimentTests;
+			productReference = 5ACB73E623ABD6FC00F54F90 /* SentimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ACB73F023ABD6FC00F54F90 /* SentimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB741D23ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "SentimentUITests" */;
+			buildPhases = (
+				5ACB73ED23ABD6FC00F54F90 /* Sources */,
+				5ACB73EE23ABD6FC00F54F90 /* Frameworks */,
+				5ACB73EF23ABD6FC00F54F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ACB73F323ABD6FC00F54F90 /* PBXTargetDependency */,
+			);
+			name = SentimentUITests;
+			productName = SentimentUITests;
+			productReference = 5ACB73F123ABD6FC00F54F90 /* SentimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5ACB73FB23ABD6FC00F54F90 /* Sentiment Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ACB741323ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "Sentiment Extension" */;
+			buildPhases = (
+				5ACB73F823ABD6FC00F54F90 /* Sources */,
+				5ACB73F923ABD6FC00F54F90 /* Frameworks */,
+				5ACB73FA23ABD6FC00F54F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sentiment Extension";
+			productName = "Sentiment Extension";
+			productReference = 5ACB73FC23ABD6FC00F54F90 /* Sentiment Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ACB73CB23ABD6F900F54F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "T Killgore";
+				TargetAttributes = {
+					5ACB73D223ABD6F900F54F90 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5ACB73E523ABD6FC00F54F90 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5ACB73D223ABD6F900F54F90;
+					};
+					5ACB73F023ABD6FC00F54F90 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5ACB73D223ABD6F900F54F90;
+					};
+					5ACB73FB23ABD6FC00F54F90 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 5ACB73CE23ABD6F900F54F90 /* Build configuration list for PBXProject "Sentiment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ACB73CA23ABD6F900F54F90;
+			productRefGroup = 5ACB73D423ABD6F900F54F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ACB73D223ABD6F900F54F90 /* Sentiment */,
+				5ACB73E523ABD6FC00F54F90 /* SentimentTests */,
+				5ACB73F023ABD6FC00F54F90 /* SentimentUITests */,
+				5ACB73FB23ABD6FC00F54F90 /* Sentiment Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ACB73D123ABD6F900F54F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB73D723ABD6F900F54F90 /* Sentiment.entitlements in Resources */,
+				5ACB73E023ABD6FC00F54F90 /* Assets.xcassets in Resources */,
+				5ACB73DC23ABD6F900F54F90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73E423ABD6FC00F54F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73EF23ABD6FC00F54F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73FA23ABD6FC00F54F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A42F14523ADA13600D3E386 /* ToolbarItemIcon.pdf in Resources */,
+				5ACB740A23ABD6FC00F54F90 /* SafariExtensionViewController.xib in Resources */,
+				5ACB740D23ABD6FC00F54F90 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ACB73CF23ABD6F900F54F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB73DE23ABD6F900F54F90 /* ViewController.swift in Sources */,
+				5ACB73D923ABD6F900F54F90 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73E223ABD6FC00F54F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB73EB23ABD6FC00F54F90 /* SentimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73ED23ABD6FC00F54F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB73F623ABD6FC00F54F90 /* SentimentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ACB73F823ABD6FC00F54F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACB740723ABD6FC00F54F90 /* SafariExtensionViewController.swift in Sources */,
+				5ACB740523ABD6FC00F54F90 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ACB73E823ABD6FC00F54F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACB73D223ABD6F900F54F90 /* Sentiment */;
+			targetProxy = 5ACB73E723ABD6FC00F54F90 /* PBXContainerItemProxy */;
+		};
+		5ACB73F323ABD6FC00F54F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACB73D223ABD6F900F54F90 /* Sentiment */;
+			targetProxy = 5ACB73F223ABD6FC00F54F90 /* PBXContainerItemProxy */;
+		};
+		5ACB73FF23ABD6FC00F54F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ACB73FB23ABD6FC00F54F90 /* Sentiment Extension */;
+			targetProxy = 5ACB73FE23ABD6FC00F54F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ACB73DA23ABD6F900F54F90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACB73DB23ABD6F900F54F90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ACB740823ABD6FC00F54F90 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ACB740923ABD6FC00F54F90 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ACB741123ABD6FC00F54F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ACB741223ABD6FC00F54F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5ACB741423ABD6FC00F54F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Sentiment Extension/Sentiment_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Sentiment Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TylerK.Sentiment-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5ACB741523ABD6FC00F54F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Sentiment Extension/Sentiment_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Sentiment Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TylerK.Sentiment-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5ACB741823ABD6FC00F54F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sentiment/Sentiment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sentiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TylerK.Sentiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5ACB741923ABD6FC00F54F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sentiment/Sentiment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Sentiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TylerK.Sentiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5ACB741B23ABD6FC00F54F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				INFOPLIST_FILE = SentimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = TylerK.SentimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sentiment.app/Contents/MacOS/Sentiment";
+			};
+			name = Debug;
+		};
+		5ACB741C23ABD6FC00F54F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				INFOPLIST_FILE = SentimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = TylerK.SentimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sentiment.app/Contents/MacOS/Sentiment";
+			};
+			name = Release;
+		};
+		5ACB741E23ABD6FC00F54F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				INFOPLIST_FILE = SentimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TylerK.SentimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sentiment;
+			};
+			name = Debug;
+		};
+		5ACB741F23ABD6FC00F54F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 97ZLLAJ964;
+				INFOPLIST_FILE = SentimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TylerK.SentimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sentiment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ACB73CE23ABD6F900F54F90 /* Build configuration list for PBXProject "Sentiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB741123ABD6FC00F54F90 /* Debug */,
+				5ACB741223ABD6FC00F54F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB741323ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "Sentiment Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB741423ABD6FC00F54F90 /* Debug */,
+				5ACB741523ABD6FC00F54F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB741723ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "Sentiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB741823ABD6FC00F54F90 /* Debug */,
+				5ACB741923ABD6FC00F54F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB741A23ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "SentimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB741B23ABD6FC00F54F90 /* Debug */,
+				5ACB741C23ABD6FC00F54F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ACB741D23ABD6FC00F54F90 /* Build configuration list for PBXNativeTarget "SentimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ACB741E23ABD6FC00F54F90 /* Debug */,
+				5ACB741F23ABD6FC00F54F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ACB73CB23ABD6F900F54F90 /* Project object */;
+}
